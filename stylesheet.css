@@ -9,10 +9,11 @@ body{
 
 #main
 {
-	background-color: grey;
+	background-color: white;
 	margin-left: 10px;
 	
 }
+
 /* Header 3*/
 #main > h3
 {
