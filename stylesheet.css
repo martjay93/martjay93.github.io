@@ -67,10 +67,8 @@ button {
 
 	.meny button {
 		background-color: #4CAF50;
-		color: white;
 		border: none;
 		cursor: pointer;
-		width: 100%;
 		opacity: 0.9;
 
 		float: left;
