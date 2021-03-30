@@ -8,9 +8,9 @@
 <button onclick="myFunction1()">Add Client</button>
 <button onclick="myFunction2()">Add Provider</button>
 
-<!-- The Modal (contains the Client form) -->
+<!-- The Client (contains the Client form) -->
 <div id="id01" class="client">
-  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">X</span>
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Client">X</span>
   <form class="client-content" action="/action_page.php">
     <div class="container">
       <h1>Add Client</h1>
@@ -63,9 +63,9 @@
   </form>
 </div>
     
-    <!-- The Modal (contains the Provider form) -->
+    <!-- The Provider (contains the Provider form) -->
 <div id="id02" class="provider">
-  <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">X</span>
+  <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Provider">X</span>
   <form class="provider-content" action="/action_page2.php">
     <div class="container">
       <h1>Add Provider</h1>
@@ -125,7 +125,7 @@ function myFunction2() {
   }
 
   
-// Get the modal
+// Get the modals
 var client = myFunction1();
 var provider = myFunction2();
 
