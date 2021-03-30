@@ -5,8 +5,8 @@
   <h2>CoronaMatch Admin page</h2>
   
   <!-- Button to open the modal -->
-<button onclick="myFunction(id01)">Add Client</button>
-<button onclick="myFunction(id02)">Add Provider</button>
+<button onclick="myFunction1()">Add Client</button>
+<button onclick="myFunction2()">Add Provider</button>
 
 <!-- The Modal (contains the Client form) -->
 <div id="id01" class="modal">
@@ -117,9 +117,13 @@
 </div>
     
 <script>
-  function myFunction(a) {
-  return document.getElementById(a);
+  function myFunction1() {
+  return document.getElementById(id01);
   }
+function myFunction2() {
+  return document.getElementById(id02);
+  }
+
   
 // Get the modal
 var modal = myFunction(a);
