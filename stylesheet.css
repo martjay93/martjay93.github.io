@@ -61,7 +61,7 @@ button {
 /* The Meny */
 .meny {
 	width: 100%;
-	background-color: #1abc9c;
+	background-color: #555;
 	overflow: auto;
 }
 
@@ -81,7 +81,7 @@ button {
 	}
 		/* Add a background color on mouse-over */
 		.meny button:hover {
-			background-color: #000;
+			opacity: 1;
 		}
 
 .header {
