@@ -5,8 +5,8 @@
   <h2>CoronaMatch Admin page</h2>
   
   <!-- Button to open the modal -->
-<button onclick="document.getElementById('id01').style.display='block'">Add Client</button>
-<button onclick="document.getElementById('id02').style.display='block'">Add Provider</button>
+<button onclick="myFunction(id01)'">Add Client</button>
+<button onclick="myFunction(id02)'">Add Provider</button>
 
 <!-- The Modal (contains the Client form) -->
 <div id="id01" class="modal">
@@ -117,9 +117,13 @@
 </div>
     
 <script>
+  function myFunction(a) {
+  document.getElementById(a);
+  }
+  
 // Get the modal
-var modal = document.getElementById('id01');
-var modal2 = document.getElementById('id02');
+var modal = myFunction();
+
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
