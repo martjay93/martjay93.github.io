@@ -60,18 +60,34 @@ button {
 }
 /* The Meny */
 .meny {
-	position: fixed; /* Stay in place */
-	z-index: 1; /* Sit on top */
-	left: 0;
-	top: 0;
-	width: 100%; /* Full width */
-	height: 100%; /* Full height */
-	overflow: auto; /* Enable scroll if needed */
-	background-color: #474e5d;
-	padding-top: 50px;
+	width: 100%;
+	background-color: #555;
+	overflow: auto;
 }
-	/* The Modal(background) */
-	.modal {
+
+	.meny button {
+		float: left;
+		padding: 12px;
+		color: white;
+		text-decoration: none;
+		font-size: 17px;
+		width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+		text-align: center; /* If you want the text to be centered */
+	}
+		/* Add a background color on mouse-over */
+		.meny button:hover {
+			background-color: #000;
+		}
+
+.header {
+	padding: 60px;
+	text-align: center;
+	background: #1abc9c;
+	color: white;
+	font-size: 30px;
+}
+/* The Modal(background) */
+.modal {
 	display: none; /* Hidden by default */
 	position: fixed; /* Stay in place */
 	z-index: 1; /* Sit on top */
@@ -120,5 +136,11 @@ button {
 @media screen and (max-width: 300px) {
 	.updatebtn, .createbtn {
 		width: 100%;
+	}
+	.meny button {
+		float: none;
+		display: block;
+		width: 100%;
+		text-align: left; /* If you want the text to be left-aligned on small screens */
 	}
 }
