@@ -58,9 +58,14 @@ button {
 .container {
 	padding: 16px;
 }
-
-/* The Client(background) */
-.modal {
+/* The Meny(background) */
+.meny {
+	margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 50%; /* Could be more or less, depending on screen size */
+}
+	/* The Client(background) */
+	.modal {
 	display: none; /* Hidden by default */
 	position: fixed; /* Stay in place */
 	z-index: 1; /* Sit on top */

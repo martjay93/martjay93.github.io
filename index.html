@@ -3,13 +3,14 @@
 
 <body>
 	<link type="text/css" rel="stylesheet" href="stylesheet.css" />
-	
+
 	<h2>CoronaMatch Admin page</h2>
 
-	<!-- Button to open the modal -->
-	<button onclick="getClientModal()" style="width:auto;">Add Client</button>
-	<button onclick="getProviderModal()" style="width:auto;">Add Provider</button>
-
+	<!-- Buttons to open the modals -->
+	<div class="meny">
+		<button onclick="getClientModal()" style="width:auto;">Add Client</button>
+		<button onclick="getProviderModal()" style="width:auto;">Add Provider</button>
+	</div>
 	<!-- The Client (contains the Client form) -->
 	<div id="client" class="modal">
 		<span onclick="document.getElementById('client').style.display='none'" class="close" title="Close Client">Go Back</span>
@@ -59,9 +60,7 @@
 
 				<div class="clearfix">
 					<button type="button" class="updatebtn">Update</button>
-					<button type="button" class="createbtn">
-						Create
-					</button>
+					<button type="button" class="createbtn">Create</button>
 				</div>
 			</div>
 		</form>
