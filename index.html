@@ -6,7 +6,7 @@
   
   <!-- Button to open the modal -->
 <button onclick="document.getElementById('id01').style.display='block'">Add Client</button>
-<button onclick2="document.getElementById('id02').style.display='block'">Add Provider</button>
+<button onclick2="document2.getElementById('id02').style.display='block'">Add Provider</button>
 
 <!-- The Modal (contains the Client form) -->
 <div id="id01" class="modal">
@@ -65,7 +65,7 @@
     
     <!-- The Modal2 (contains the Provider form) -->
 <div id="id02" class="modal2">
-  <span onclick2="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">X</span>
+  <span onclick2="document2.getElementById('id02').style.display='none'" class="close" title="Close Modal">X</span>
   <form class="modal2-content" action="/action_page.php">
     <div class="container">
       <h1>Add Provider</h1>
@@ -119,7 +119,7 @@
 <script>
 // Get the modal
 var modal = document.getElementById('id01');
-var modal2 = document.getElementById('id02');
+var modal2 = document2.getElementById('id02');
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
